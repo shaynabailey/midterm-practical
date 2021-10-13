@@ -1,0 +1,135 @@
+.wrapper {
+
+    position: relative;
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: 100%;
+
+    height: 800px;
+
+    background-color: #BFA288;
+
+}
+
+header  {
+
+    display: inline-block;
+
+    text-align: center;
+
+    width: 100%;
+
+    height: 80px;
+
+    align-content: center;
+
+    background-color: #A6700D;
+
+}
+
+header h1 {
+
+    display: inline-block;
+}
+
+img {
+
+    height: 50px;
+
+    width: 50px;
+
+    position: absolute;
+
+    border-radius: 10px;
+}
+
+.navigationbarcontainer{
+
+    background-color:#D9AF32;
+
+    top: 5px;
+
+    height: 50px;
+
+    width: 100%;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: flex-end;
+
+    position: sticky;
+
+}
+
+.navigationbarcontainer ul {
+
+    display:flex;
+
+    list-style-type: none;
+
+    text-decoration: none;
+
+}
+
+.articlecontainer {
+
+    background-color: #A6700D;
+
+    display: inline-flex;
+
+    flex-wrap: wrap;
+
+    flex-direction: row;
+
+    align-content: center;
+}
+
+.article {
+
+    background-color: bisque;
+
+    display:flexbox;
+
+    flex-wrap: wrap;
+
+    align-content: center;
+
+   height: 30px;
+
+   width: 30px; 
+
+   gap: 40% 90%;
+
+  flex: 1 0 100px;
+  
+  
+}
+
+.aside{ 
+
+    display: inline-block;
+
+    align-content: vertical;
+
+    width: 30%;
+
+    background-color: blanchedalmond;
+
+}
+
+.footer {
+
+    position: sticky;
+        
+    bottom: 0px;
+        
+    width: 100%;
+        
+    background-color:#A6700D;
+        
+    }
